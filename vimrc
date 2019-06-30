@@ -1,7 +1,7 @@
 set nobackup        " no backup files
 set nowritebackup   " no backup file while editing
 set noswapfile      " no swap files
-set undofile        " save undo's after file closes
+set noundofile        " save undo's after file closes
 
 if has('win32') || has ('win64')
   let $VIMHOME = $HOME."/vimfiles"
