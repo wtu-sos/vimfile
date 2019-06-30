@@ -1,1 +1,0 @@
-/usr/share/cscope/cctree.vim
