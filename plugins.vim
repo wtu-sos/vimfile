@@ -26,6 +26,8 @@ Plug 'autozimu/LanguageClient-neovim', {
 
 Plug 'altercation/vim-colors-solarized'
 
+Plug 'scrooloose/nerdcommenter'
+
 " Initialize plugin system
 call plug#end()
 
@@ -103,7 +105,7 @@ set laststatus=2
 """"""""""""""""""""""""""""""""""""""""""""
 let g:Lf_ShortcutF = '<C-P>'
 let g:Lf_WorkingDirectoryMode = 'ac'
-let g:Lf_WildIgnore = {'dir': ['target'], 'file': ['*.sw?','~$*','*.bak','*.exe','*.o','*.so','*.py[co]','*.bin']}
+let g:Lf_WildIgnore = {'dir': ['target'], 'file': [ '*.lib', '*.dll','*.sw?','~$*','*.bak','*.exe','*.o','*.so','*.py[co]','*.bin']}
 
 
 """"""""""""""""""""""""""""""""""""""""""""
