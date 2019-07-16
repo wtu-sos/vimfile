@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 " Make sure you use single quotes
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/vim-easy-align'
 "Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-scripts/mru.vim'
